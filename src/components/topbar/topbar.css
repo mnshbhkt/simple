@@ -1,0 +1,109 @@
+.topbarContainer{
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(7, 7, 8);
+  position: fixed;
+  top: 0;
+}
+.topbarLeft{
+  flex: 3;
+}
+.topbarLogo{
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color:rgb(147, 147, 240);
+}
+.topbarLogo2{
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color:rgb(147, 147, 240);
+  text-decoration: none;
+}
+.topbarCenter{
+  flex: 3;
+}
+.searchBar{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+.searchInput {
+  border: none;
+  width: 70%;
+}
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight{
+  flex: 6;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbarRight ul li{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  list-style: none;
+}
+.topbarRight ul li a{
+  margin-right: 20px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  color: rgb(147, 147, 240);
+  text-decoration: none;
+}
+.topbarRight ul li a:hover{
+  color: white;
+  text-decoration-color: rgb(147, 147, 240);
+}
+.ls{
+  flex: 3;
+}
+.ls ul{
+  display: flex;
+  align-items: center;
+}
+.ls ul li{
+  color: rgb(147, 147, 240);
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10px;
+  padding: 5px;
+  border: 2px solid  rgb(147, 147, 240);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ls ul li:hover{
+  color: black;
+  background-color:  rgb(147, 147, 240);
+}
+@media screen and (max-width: 480px){
+  .topbarRight,.ls{
+    display: none;
+  }
+  .searchBar{
+    width: 50%;
+  }
+}

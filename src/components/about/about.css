@@ -1,0 +1,48 @@
+.aboutContainer{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.aboutLeft{
+  flex: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin-top: 10px;
+  color:  rgb(147, 147, 240);
+}
+.para1,.para2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+  color:  rgb(147, 147, 240);
+}
+.aboutRight{
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pics{
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 480px){
+  .pics{
+    display: none;
+  }
+  .aboutLeft{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+}

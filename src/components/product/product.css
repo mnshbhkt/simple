@@ -1,0 +1,49 @@
+.productContainer{
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(147, 147, 240);
+}
+.productContainer h1{
+  font-family: 'Roboto', sans-serif;
+ text-align: center;
+ margin-bottom: 50px;
+ padding-top: 50px;
+ }
+ .prod{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+.img{
+  width: 300px;
+  height: 300px;
+}
+.lefts{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.desc{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 90px;
+}
+@media screen and (max-width:480px) {
+  
+}

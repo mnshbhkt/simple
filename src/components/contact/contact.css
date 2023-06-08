@@ -1,0 +1,77 @@
+.contact {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.contact .left {
+  flex: 1;
+  overflow: hidden;
+}
+.contact .left img {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(147, 147, 240);
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.contact .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact .right h2 {
+  font-size: 30px;
+  color: rgb(147, 147, 240);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.contact .right form {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact .right form input {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid rgb(147, 147, 240);
+  border-radius: 5px;
+  background-color: black;
+  color:  rgb(147, 147, 240);
+}
+.contact .right form textarea {
+  width: 300px;
+  height: 200px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid rgb(147, 147, 240);
+  border-radius: 5px;
+  background-color: black;
+  color:  rgb(147, 147, 240);
+}
+.contact .right form button {
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: rgb(147, 147, 240);
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.contact .right form span {
+  color: green;
+  font-weight: 500;
+}
+@media screen and (max-width: 480px){
+  .left{
+    display: none;
+  }
+}
